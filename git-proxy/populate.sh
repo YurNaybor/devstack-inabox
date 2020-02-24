@@ -4,7 +4,7 @@ set -e
 
 GIT_BASE=https://opendev.org
 # noVNC comes from github
-REPOS="devstack neutron horizon requirements swift placement keystone cinder designate designate-tempest-plugin tempest nova designate-dashboard glance magnum barbican ceilometer"
+REPOS="devstack neutron horizon requirements swift placement keystone cinder designate designate-tempest-plugin tempest nova designate-dashboard glance magnum barbican ceilometer python-magnumclient magnum-ui python-barbicanclient heat heat-dashboard python-heatclient"
 
 for i in ${REPOS}; do
 	if [ ! -d ${i} ]; then
