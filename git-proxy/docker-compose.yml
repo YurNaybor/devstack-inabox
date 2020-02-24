@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  openstack-repos:
+    build:
+      context: .
+    ports:
+      - "8888:80"

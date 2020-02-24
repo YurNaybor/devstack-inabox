@@ -1,0 +1,5 @@
+*-openrc.sh
+.terraform
+*.log
+*~
+*.swp
